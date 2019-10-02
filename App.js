@@ -4,11 +4,11 @@ import {HomeScreen} from './src/screens/HomeScreen';
 import {SearchScreen} from './src/screens/SearchScreen';
 
 const AppNavigator = createStackNavigator({
-  Search: {
-    screen: SearchScreen,
-  },
   Home: {
     screen: HomeScreen,
+  },
+  Search: {
+    screen: SearchScreen,
   },
 });
 

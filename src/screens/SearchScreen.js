@@ -178,8 +178,6 @@ export class SearchScreen extends React.Component {
     );
   }
 
-  _showDialog = () => this.setState({visible: true});
-
   _hideDialog = () => this.setState({visible: false});
 
   dialog() {
